@@ -9,14 +9,17 @@
 
 // Parameters
 #ifndef WIDTH
-#define WIDTH 1920
+//#define WIDTH 1920
+#define WIDTH 5
 #endif
 
 #ifndef HEIGHT
-#define HEIGHT 1080
+//#define HEIGHT 1080
+#define HEIGHT 5
 #endif
 
-static const unsigned int FRAMES = 300;
+//Originally 300
+static const unsigned int FRAMES = 3;
 
 static unsigned int idx(unsigned int x, unsigned int y, unsigned int stride) {
         return y * stride + x;
