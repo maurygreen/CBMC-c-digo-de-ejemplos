@@ -55,6 +55,7 @@ void *dotprod(void *arg)
 
 /* Define and use local variables for convenience */
 
+   assert(arg != NULL);
    int i, start, end, len ;
    long offset;
    double mysum, *x, *y;
